@@ -1,0 +1,246 @@
+.nav{
+    width: 80%;
+    color: #00A5EC;
+    text-align: left;
+    font: normal bold;
+    font-size: 40px;
+    padding-left: 180px;
+}
+.navcolor{
+    color: #424242;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-left: 70%;
+}
+
+.plus{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-left: 14px;
+    /*padding: 20px 20px 20px 20px; */
+}
+
+.background{
+    background-color: #F7F7F7;
+    height: 800px;
+}
+
+.bd{
+    padding-top: 5px;
+}
+
+.bigbox{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.classp{
+    margin-left: 15px;
+    font:  normal normal normal 22px/26px Inter;
+    color: #424242;
+    font-size: 22px;
+}
+
+a{
+    text-decoration: none;
+}
+
+input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+}
+
+.minibox{
+    width: 26%;
+    height: 300px;
+    border: 0px;
+    background-color: #FFFFFF;
+    color: #00A5EC;
+    text-align: left;
+    font: medium normal 20px;
+}
+
+.heading{
+    padding-left: 20px;
+}
+
+hr.new {
+    border-top: 1px solid rgb(255, 246, 246);
+  }
+
+form{
+    padding-left: 20px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.parent{
+    filter: blur(2px);
+}
+
+
+.I2mini{
+    border: 1px solid aquamarine;
+    color: #404040;
+    text-align: left;
+    font: medium normal 20px;
+    padding: 20px;
+    width: 300px;
+    height: 150px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 20px;
+    position: absolute;
+    left: 40%;
+    top: 200px;
+}
+
+
+.I3mini{
+    border: 0px;
+    color: #404040;
+    text-align: left;
+    font: medium normal 20px;
+    padding: 20px;
+    width: 350px;
+    height: 250px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    position: absolute;
+    left: 40%;
+    top: 200px;
+    box-shadow: 5px 5px 10px gray;
+    align-items: center;
+}
+
+.I3divBack{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+}
+.I3AB{
+    width: 400px;
+    height: 100px;
+    display: inherit;
+    text-align: center;
+}
+
+.I3back{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: grey;
+    margin-left: 30px;
+}
+
+.circle3{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-left: 50%;
+}
+.classb{
+    margin-left: 60px;
+    color: #424242;
+    font-size: 18px;
+}
+.backf{
+        font-size: 50px;
+        font-weight: bold;
+        color: white;
+        padding: 15px;
+}
+
+
+
+img{
+    height: 25px;
+    width: 30px;
+    float: right;
+}
+
+h4{
+    display: inline;
+    color: #570808;
+}
+
+.I2button{
+    background-color: #00A5EC;
+    color: #FFFFFF;
+    font-size: 18px;
+    float: Right;
+    padding: 5px;
+}
+
+
+/*########### Media query start ##########*/
+/*########### Media query start ##########*/
+/*########### Media query start ##########*/
+
+@media only screen and (min-width:200px) and (max-width:800px) {
+    
+    .nav{
+        text-align: left;
+        font-size: 36px;
+        padding: 0%;
+    }
+    .navcolor{
+        color: #424242;
+    }
+    
+    .circle{
+        margin-left: 150px;
+    }
+
+    
+.bigbox{
+    flex-direction: column;
+}
+
+
+.minibox{
+    width: 100%;
+}
+
+.I2mini{
+    padding: 26px;
+    width: 280px;
+    height: 150px;
+    left: 7%;
+    top: 260px;
+}
+
+.I3back{
+    margin-left: 0px;
+}
+
+.I3divBack{
+    width: 0%;
+}
+
+.I3mini{
+    width: 300px;
+    height: 220px;
+    left: 7%;
+    top: 200px;
+}
+    
+    
+}
+
+
+
+
